@@ -1,0 +1,12 @@
+body {
+  background-color: $paper-white;
+  color: $carbon;
+}
+
+// $quote-background-color: tint($plain-gray, 30%);
+$quote-background-color: shade($plain-gray, 35%);
+
+.quote {
+  background-color: $quote-background-color; // gray
+  font-size: $font-size * 1.6;
+}
